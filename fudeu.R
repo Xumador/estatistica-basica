@@ -21,4 +21,30 @@ media=mean(dados) #media aritmetica
 media
 mediana=median(dados) #mediana
 mediana
+#===================================
+#Medidas de variabilidade no R
+#Amplitude total:
+
+A=max(dados)-min(dados)
+A
+#===================================
+#Verificando que a soma dos desvios em relação a media é zero
+#===================================
+di=dados-media
+di
+
+soma_di=sum(di);round(soma_di,10)
+Val=(sum(di^2))/(n-1) #Variancia
+Val
+
+#Variancia
+Va=var(dados) #Usando função pra calcular variancia
+Va
+
+#Desvio padrão
+DP=sd(dados)
+DP
+
+#Coeficiente de variação
+
 
