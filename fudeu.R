@@ -46,5 +46,16 @@ DP=sd(dados)
 DP
 
 #Coeficiente de variação
+CV=(DP/media)*100
+CV
+
+#Para quartis
+
+Q1=quantile(dados,.25,type=4)
+Q1
+Q3=quantile(dados,.75,tyope=4)
+Q3
+
+#Para porcentis
 
 
